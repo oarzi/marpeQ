@@ -15,6 +15,30 @@ def circuit(gates, gatewires, mes, meswires):
 
 
 def compare_circuits_ofir(angles):
+    dev = qml.device("default.qubit", wires=1)
+    c1 = circuit([qml.RX, qml.RY], [0, 0], qml.PauliX, 0)
+    c2 = circuit([qml.RY, qml.RX], [0, 0], qml.PauliX, 0)
+
+    qnode1 = qml.QNode(c1, dev)(angles)
+    qnode2 = qml.QNode(c2, dev)(list(reversed(angles)))
+
+    return np.absolute(qnode1 - qnode2)
+    # QHACK #
+
+
+def xy_qfunc(params):
+    qml.RX(params[0], wires=0)
+    qml.RY(params[1], wires=0)
+    return qml.expval(qml.PauliX(0))
+
+
+def yx_qfunc(params):
+    qml.RY(params[1], wires=0)
+    qml.RX(params[0], wires=0)
+    return qml.expval(qml.PauliX(0))
+
+
+def compare_circuits(angles):
     """Given two angles, compare two circuit outputs that have their order of operations flipped: RX then RY VERSUS RY then RX.
 
     Args:
@@ -33,30 +57,7 @@ def compare_circuits_ofir(angles):
     yx_qnode = qml.QNode(func=yx_qfunc, device=dev)
 
     res = xy_qnode(angles) - yx_qnode(angles)
-    return res.abs()
-
-
-def xy_qfunc(params):
-    qml.RX(params[0], wires=0)
-    qml.RY(params[1], wires=0)
-    return qml.expval(qml.PauliX(0))
-
-
-def yx_qfunc(params):
-    qml.RY(params[1], wires=0)
-    qml.RX(params[0], wires=0)
-    return qml.expval(qml.PauliX(0))
-
-
-def compare_circuits(angles):
-    c1 = circuit([qml.RX, qml.RY], [0, 0], qml.PauliX, 0)
-    c2 = circuit([qml.RY, qml.RX], [0, 0], qml.PauliX, 0)
-
-    qnode1 = qml.QNode(c1, dev)(angles)
-    qnode2 = qml.QNode(c2, dev)(list(reversed(angles)))
-
-    return np.absolute(qnode1 - qnode2)
-    # QHACK #
+    return np.absolute(res)
 
 
 if __name__ == "__main__":
