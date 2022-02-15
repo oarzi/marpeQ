@@ -22,10 +22,21 @@ def superdense_coding(bits, alpha):
     # QHACK #
 
     # Prepare entangled state here
+    qml.RX(2*alpha, wires=1)
+    qml.S(wires=1)
+    qml.CNOT(wires=[1, 0])
 
     # Implement Alice's operations on her qubit here
+    def PauliXZ(wires):
+        qml.PauliX(wires)
+        qml.PauliZ(wires)
+    Alice = [qml.Identity, qml.PauliX, qml.PauliZ, PauliXZ]
+
+    Alice[bits](0)
 
     # Implement Bob's measurement procedure here
+    qml.CNOT(wires=[0, 1])
+    qml.Hadamard(wires=0)
 
     # QHACK #
 
