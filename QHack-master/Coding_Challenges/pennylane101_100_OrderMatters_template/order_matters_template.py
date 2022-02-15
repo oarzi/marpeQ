@@ -57,7 +57,7 @@ def compare_circuits(angles):
     yx_qnode = qml.QNode(func=yx_qfunc, device=dev)
 
     res = xy_qnode(angles) - yx_qnode(angles)
-    return np.absolute(res)
+    return qml.numpy.absolute(res)
 
 
 if __name__ == "__main__":
