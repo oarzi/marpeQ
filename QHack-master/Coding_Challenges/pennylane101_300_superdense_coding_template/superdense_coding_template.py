@@ -22,7 +22,7 @@ def superdense_coding(bits, alpha):
     # QHACK #
 
     # Prepare entangled state here
-    qml.RX(2*alpha, wires=1)
+    qml.RX(2 * alpha, wires=1)
     qml.S(wires=1)
     qml.CNOT(wires=[1, 0])
 
@@ -30,6 +30,7 @@ def superdense_coding(bits, alpha):
     def PauliXZ(wires):
         qml.PauliX(wires)
         qml.PauliZ(wires)
+
     Alice = [qml.Identity, qml.PauliX, qml.PauliZ, PauliXZ]
 
     Alice[bits](0)
