@@ -4,16 +4,15 @@ import sys
 import pennylane as qml
 from pennylane import numpy as np
 
+
 def circuit(gates, gatewires, mes, meswires):
     def ret_circ(gateparams):
         for gate, params, wire in zip(gates, gateparams, gatewires):
             gate(params, wires=wire)
         return qml.expval(mes(meswires))
 
-    return qml.expval(qml.PauliX(0))
-
-
     return ret_circ
+
 
 def compare_circuits_ofir(angles):
     """Given two angles, compare two circuit outputs that have their order of operations flipped: RX then RY VERSUS RY then RX.
@@ -55,7 +54,7 @@ def compare_circuits(angles):
 
     qnode1 = qml.QNode(c1, dev)(angles)
     qnode2 = qml.QNode(c2, dev)(list(reversed(angles)))
-    
+
     return np.absolute(qnode1 - qnode2)
     # QHACK #
 
