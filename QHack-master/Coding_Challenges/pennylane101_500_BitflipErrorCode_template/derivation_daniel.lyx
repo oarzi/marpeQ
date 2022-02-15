@@ -1,0 +1,295 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ket}[1]{\left|#1\right\rangle }
+{\left|#1\right\rangle }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+
+\size normal
+pnln101-500: bitflip_error_template
+\end_layout
+
+\begin_layout Standard
+Given an initial 1-qubit state:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ket{\psi}=a\ket 0+\sqrt{1-a^{2}}\ket 1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+we shell encode it in 3 -qubits as follows:
+\begin_inset Formula 
+\[
+\ket{\tilde{\psi}}=\ket{\psi}\otimes\ket{00}=a\ket{000}+\sqrt{1-a^{2}}\ket{100}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Downarrow CX_{0\rightarrow1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ket{\tilde{\psi}}=a\ket{000}+\sqrt{1-a^{2}}\ket{110}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Downarrow CX_{0\rightarrow2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ket{\tilde{\psi}}=a\ket{000}+\sqrt{1-a^{2}}\ket{111}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Downarrow BF
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ket{\tilde{\psi}}=\begin{cases}
+a\ket{000}+\sqrt{1-a^{2}}\ket{111} & 1-p_{1}-p_{2}-p_{3}\\
+a\ket{100}+\sqrt{1-a^{2}}\ket{011} & p_{1}\\
+a\ket{010}+\sqrt{1-a^{2}}\ket{101} & p_{2}\\
+a\ket{001}+\sqrt{1-a^{2}}\ket{110} & p_{3}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now we perform a sequence of unitary transformations as follows:
+\begin_inset Formula 
+\[
+\Downarrow CX_{0\rightarrow1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ket{\tilde{\psi}}=\begin{cases}
+a\ket{000}+\sqrt{1-a^{2}}\ket{101} & 1-p_{1}-p_{2}-p_{3}\\
+a\ket{110}+\sqrt{1-a^{2}}\ket{011} & p_{1}\\
+a\ket{010}+\sqrt{1-a^{2}}\ket{111} & p_{2}\\
+a\ket{001}+\sqrt{1-a^{2}}\ket{100} & p_{3}
+\end{cases}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Downarrow CX_{0\rightarrow2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ket{\tilde{\psi}}=\begin{cases}
+a\ket{000}+\sqrt{1-a^{2}}\ket{100} & 1-p_{1}-p_{2}-p_{3}\\
+a\ket{111}+\sqrt{1-a^{2}}\ket{011} & p_{1}\\
+a\ket{010}+\sqrt{1-a^{2}}\ket{110} & p_{2}\\
+a\ket{001}+\sqrt{1-a^{2}}\ket{101} & p_{3}
+\end{cases}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Downarrow Toffoli_{\left(1,2\right)\rightarrow0}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\ket{\tilde{\psi}}=\begin{cases}
+a\ket{000}+\sqrt{1-a^{2}}\ket{100} & 1-p_{1}-p_{2}-p_{3}\\
+a\ket{011}+\sqrt{1-a^{2}}\ket{111} & p_{1}\\
+a\ket{010}+\sqrt{1-a^{2}}\ket{110} & p_{2}\\
+a\ket{001}+\sqrt{1-a^{2}}\ket{101} & p_{3}
+\end{cases}=\begin{cases}
+\ket{\psi}\otimes\ket{00} & 1-p_{1}-p_{2}-p_{3}\\
+\ket{\psi}\otimes\ket{11} & p_{1}\\
+\ket{\psi}\otimes\ket{10} & p_{2}\\
+\ket{\psi}\otimes\ket{01} & p_{3}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Returning from the 'circuit' function the reduced density matrix on the
+ two ancila qubits (1 & 2), turning to be:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{0}=\text{Tr}_{0}\left[\tilde{\rho}_{final}\right]\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{1}=\text{Tr}_{0}\left[\tilde{\rho}_{final}\right]\left(3,3\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p_{2}=\text{Tr}_{0}\left[\tilde{\rho}_{final}\right]\left(2,2\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p_{3}=\text{Tr}_{0}\left[\tilde{\rho}_{final}\right]\left(1,1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -3,6 +3,7 @@
 import sys
 import pennylane as qml
 from pennylane import numpy as np
+# np.set_printoptions(threshold=100)
 
 
 def error_wire(circuit_output):
@@ -22,9 +23,9 @@ def error_wire(circuit_output):
     """
 
     # QHACK #
-
     # process the circuit output here and return which qubit was the victim of a bitflip error!
-
+    res = np.diag(circuit_output).real
+    return np.stack([res[0], res[3], res[2], res[1]])
     # QHACK #
 
 
@@ -51,12 +52,16 @@ def circuit(p, alpha, tampered_wire):
     # QHACK #
 
     # put any input processing gates here
-
+    qml.CNOT(wires=(0, 1))
+    qml.CNOT(wires=(0, 2))
     qml.BitFlip(p, wires=int(tampered_wire))
-
     # put any gates here after the bitflip error has occurred
+    qml.CNOT(wires=(0, 1))
+    qml.CNOT(wires=(0, 2))
+    qml.Toffoli(wires=(1, 2, 0))
 
     # return something!
+    return qml.density_matrix(wires=[1, 2])
     # QHACK #
 
 
