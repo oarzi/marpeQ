@@ -140,7 +140,10 @@ def error_wire(circuit_output):
     # QHACK #
     # process the circuit output here and return which qubit was the victim of a bitflip error!
     res = np.diag(circuit_output).real
-    return np.stack([res[0], res[3], res[2], res[1]])
+    # return np.stack([res[0], res[3], res[2], res[1]])
+    w, v = np.linalg.eig(circuit_output)
+    w = w.real
+    return w[0], w[3], w[2], w[1]
     # QHACK #
 
 
