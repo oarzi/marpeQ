@@ -29,6 +29,23 @@ def n_swaps(cnot):
     """
 
     # QHACK #
+    stack, targt = [cnot.wires[0]], cnot.wires[1]
+    visited = []
+    count = 0
+
+    while True:
+        curr = stack
+
+        if targt in curr:
+            return 2*(count - 1)
+        else:
+            visited.extend(curr)
+            stack = []
+            for vertex in curr:
+                for e in graph[vertex]:
+                    if e not in visited:
+                        stack.append(e)
+            count += 1
 
     # QHACK #
 
