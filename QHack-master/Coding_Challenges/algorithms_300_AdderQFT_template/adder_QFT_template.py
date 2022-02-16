@@ -16,7 +16,10 @@ def qfunc_adder(m, wires):
     qml.QFT(wires=wires)
 
     # QHACK #
-
+    base_angle = ((np.pi * m) / 2) * 2
+    for wire in wires:
+        current_angle = base_angle / (2 ** wire)
+        qml.RZ(current_angle, wires=wire)
     # QHACK #
 
     qml.QFT(wires=wires).inv()
