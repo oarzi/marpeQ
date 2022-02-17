@@ -10,6 +10,16 @@ def second_renyi_entropy(rho):
     return -np.real(np.log(np.sum(rho_diag_2)))
 
 
+def circuit(wires, theta):
+    qml.Hadamard(wires=1)
+    qml.ControlledQubitUnitary(np.array([[0, 1], [1, 0]]), control_wires=[wires[1]], wires=wires[0], control_values='0')
+    SRX = np.array([[np.cos(theta / 2), -1j * np.sin(theta / 2)], [np.sin(theta / 2), 1j * np.cos(theta / 2)]])
+    qml.ControlledQubitUnitary(SRX, control_wires=wires[1], wires=wires[2])
+    qml.CNOT(wires=[wires[2], wires[1]])
+
+    return qml.density_matrix(wires=1)
+
+
 def compute_entanglement(theta):
     """Computes the second Renyi entropy of circuits with and without a tardigrade present.
 
@@ -26,8 +36,15 @@ def compute_entanglement(theta):
     dev = qml.device("default.qubit", wires=3)
 
     # QHACK #
+    tardigrade = qml.QNode(circuit, dev)
+    dense_t = tardigrade([0, 1, 2], theta)
+    entropy_t = second_renyi_entropy(dense_t)
 
+    no_tardigrade = qml.QNode(circuit, dev)
+    dense_not = no_tardigrade([0, 1, 2], 0)
+    entropy_not = second_renyi_entropy(dense_not)
     # QHACK #
+    return entropy_not, entropy_t
 
 
 if __name__ == "__main__":

@@ -12,14 +12,30 @@ def deutsch(f, wires):
     qml.Hadamard(wires[0])
     qml.Hadamard(wires[1])
     qml.Hadamard(wires[2])
-    # print(f)
     f(wires)
-    # print(help(f))
-    # print(np.array(f()))
-    # qml.QubitUnitary(f, wires=wires)
-
     qml.Hadamard(wires[0])
     qml.Hadamard(wires[1])
+
+
+def oracle(funcs):
+    deutsch(funcs[0], wires=[0, 1, 2])
+    qml.Hadamard(wires=2)
+    qml.Toffoli(wires=[0, 2, 1])
+    qml.PauliX(wires=2)
+
+    deutsch(funcs[1], wires=[1, 2, 3])
+    qml.Hadamard(wires=3)
+    qml.Toffoli(wires=[1, 3, 2])
+    qml.PauliX(wires=3)
+
+    deutsch(funcs[2], wires=[2, 3, 4])
+    qml.Hadamard(wires=4)
+    qml.Toffoli(wires=[2, 4, 3])
+    qml.PauliX(wires=4)
+
+    deutsch(funcs[3], wires=[3, 4, 5])
+
+    return [qml.expval(qml.PauliZ(i)) for i in [0, 1, 2, 3]]
 
 
 def deutsch_jozsa(fs):
@@ -34,33 +50,12 @@ def deutsch_jozsa(fs):
     """
 
     # QHACK #
-    dev = qml.device('default.qubit', wires=7, shots=1)
-
-    def oracle(funcs):
-        deutsch(funcs[0], wires=[0, 1, 2])
-        qml.Hadamard(wires=2)
-        qml.Toffoli(wires=[0, 2, 1])
-        qml.PauliX(wires=2)
-
-        deutsch(funcs[1], wires=[1, 2, 3])
-        qml.Hadamard(wires=3)
-        qml.Toffoli(wires=[1, 3, 2])
-        qml.PauliX(wires=3)
-
-        deutsch(funcs[2], wires=[2, 3, 4])
-        qml.Hadamard(wires=4)
-        qml.Toffoli(wires=[2, 4, 3])
-        qml.PauliX(wires=4)
-
-        deutsch(funcs[3], wires=[3, 4, 5])
-
-        return [qml.expval(qml.PauliZ(i)) for i in [0, 1, 2, 3]]
-        # QHACK #
+    dev = qml.device('default.qubit', wires=6, shots=1)
 
     qnode = qml.QNode(oracle, dev)
     res = int(sum(qnode(fs)))
     res_dic = {4: "4 same", -4: "4 same", 0: "2 and 2"}
-
+    # QHACK #
     return res_dic[res]
 
 
