@@ -69,8 +69,8 @@ if __name__ == "__main__":
     inputs = sys.stdin.read().split(",")
     numbers = [int(i) for i in inputs]
 
-
     # Definition of the four oracles we will work with.
+
 
     def f1(wires):
         qml.CNOT(wires=[wires[numbers[0]], wires[2]])

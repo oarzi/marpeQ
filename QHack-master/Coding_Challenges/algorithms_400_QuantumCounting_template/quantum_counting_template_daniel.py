@@ -1,12 +1,15 @@
 #! /usr/bin/python3
 
 import sys
+
+import numpy
 import pennylane as qml
 from pennylane import numpy as np
 from pennylane.templates import QuantumPhaseEstimation
 
 
 dev = qml.device("default.qubit", wires=8)
+
 
 def oracle_matrix(indices):
     """Return the oracle matrix for a secret combination.
@@ -19,7 +22,13 @@ def oracle_matrix(indices):
     """
 
     # QHACK #
-
+    diag = []
+    for idx in range(4 ** 2):
+        if idx in indices:
+            diag.append(-1.0)
+        else:
+            diag.append(+1.0)
+    my_array = np.diag(diag)
     # QHACK #
 
     return my_array
@@ -41,6 +50,17 @@ def grover_operator(indices):
     return np.dot(diffusion_matrix(), oracle_matrix(indices))
 
 
+def grover_power(grover_mat, powers):
+    power_grover_mat = None
+    for time in range(powers):
+        if power_grover_mat is None:
+            power_grover_mat = grover_mat
+        else:
+            power_grover_mat = power_grover_mat @ grover_mat
+
+    return power_grover_mat
+
+
 dev = qml.device("default.qubit", wires=8)
 
 @qml.qnode(dev)
@@ -56,12 +76,24 @@ def circuit(indices):
 
     # QHACK #
 
-    target_wires =
+    target_wires = range(0, 4)
 
-    estimation_wires =
+    estimation_wires = range(4, 8)
+
+    wires = range(0, 8)
 
     # Build your circuit here
+    for wire in wires:
+        qml.Hadamard(wire)
 
+    grover_matrix = grover_operator(indices)
+    for wire in estimation_wires:
+        wire_in_seq = wire - min(estimation_wires) + 1
+        current_power_of_grover = 2 ** (4 - wire_in_seq)
+        current_grover_power = grover_power(grover_matrix, current_power_of_grover)
+        qml.ControlledQubitUnitary(current_grover_power, control_wires=wire, wires=target_wires)
+
+    qml.QFT(wires=estimation_wires).inv()
     # QHACK #
 
     return qml.probs(estimation_wires)
@@ -77,6 +109,10 @@ def number_of_solutions(indices):
     """
 
     # QHACK #
+    max_idx = np.argmax(circuit(indices))
+    theta = max_idx * (np.pi / 8)
+    M = 4 * np.sin(theta / 2)
+    return M ** 2
 
     # QHACK #
 
@@ -91,8 +127,10 @@ def relative_error(indices):
     """
 
     # QHACK #
+    quantum_counting_estimation = number_of_solutions(indices)
+    true_number_of_elements = len(indices)
 
-    rel_err = 
+    rel_err = ((quantum_counting_estimation / true_number_of_elements) - 1) * 100
 
     # QHACK #
 
