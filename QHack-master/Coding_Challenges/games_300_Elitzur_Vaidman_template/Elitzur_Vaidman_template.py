@@ -20,7 +20,7 @@ def is_bomb(angle):
     """
 
     # QHACK #
-
+    qml.RY(2*angle, wire=0)
     # QHACK #
 
     return qml.sample(qml.PauliZ(0))
