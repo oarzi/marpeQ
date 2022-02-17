@@ -1,9 +1,12 @@
 #! /usr/bin/python3
 
 import sys
+
+import numpy
 import pennylane as qml
 from pennylane import numpy as np
 from pennylane.templates import QuantumPhaseEstimation
+
 
 dev = qml.device("default.qubit", wires=8)
 
@@ -19,13 +22,20 @@ def oracle_matrix(indices):
     """
 
     # QHACK #
-    my_array = np.diag([-1 if i in indices else 1 for i in range(16)])
+    diag = []
+    for idx in range(4 ** 2):
+        if idx in indices:
+            diag.append(-1.0)
+        else:
+            diag.append(+1.0)
+    my_array = np.diag(diag)
     # QHACK #
 
     return my_array
 
 
 def diffusion_matrix():
+
     # DO NOT MODIFY anything in this code block
 
     psi_piece = (1 / 2 ** 4) * np.ones(2 ** 4)
@@ -34,13 +44,24 @@ def diffusion_matrix():
 
 
 def grover_operator(indices):
+
     # DO NOT MODIFY anything in this code block
 
     return np.dot(diffusion_matrix(), oracle_matrix(indices))
 
 
-dev = qml.device("default.qubit", wires=8)
+def grover_power(grover_mat, powers):
+    power_grover_mat = None
+    for time in range(powers):
+        if power_grover_mat is None:
+            power_grover_mat = grover_mat
+        else:
+            power_grover_mat = power_grover_mat @ grover_mat
 
+    return power_grover_mat
+
+
+dev = qml.device("default.qubit", wires=8)
 
 @qml.qnode(dev)
 def circuit(indices):
@@ -55,23 +76,27 @@ def circuit(indices):
 
     # QHACK #
 
-    target_wires = [0, 1, 2, 3]
+    target_wires = range(0, 4)
 
-    estimation_wires = [4, 5, 6, 7]
+    estimation_wires = range(4, 8)
+
+    wires = range(0, 8)
 
     # Build your circuit here
-    for i in target_wires + estimation_wires:
-        qml.Hadamard(wires=[i])
-    g = grover_operator(indices)
-    for i, e in zip(reversed(range(4)), estimation_wires):
-        pow = 2 ** i
-        gi = np.linalg.matrix_power(g, pow)
-        qml.ControlledQubitUnitary(gi, control_wires=e, wires=target_wires)
+    for wire in wires:
+        qml.Hadamard(wire)
+
+    grover_matrix = grover_operator(indices)
+    for wire in estimation_wires:
+        wire_in_seq = wire - min(estimation_wires) + 1
+        current_power_of_grover = 2 ** (4 - wire_in_seq)
+        current_grover_power = grover_power(grover_matrix, current_power_of_grover)
+        qml.ControlledQubitUnitary(current_grover_power, control_wires=wire, wires=target_wires)
+
     qml.QFT(wires=estimation_wires).inv()
     # QHACK #
 
     return qml.probs(estimation_wires)
-
 
 def number_of_solutions(indices):
     """Implement the formula given in the problem statement to find the number of solutions from the output of your circuit
@@ -84,13 +109,12 @@ def number_of_solutions(indices):
     """
 
     # QHACK #
-    res = circuit(indices)
-    decimal_value = np.argmax(res)
-    theta = decimal_value * (np.pi / 8)
+    max_idx = np.argmax(circuit(indices))
+    theta = max_idx * (np.pi / 8)
     M = 4 * np.sin(theta / 2)
     return M ** 2
-    # QHACK #
 
+    # QHACK #
 
 def relative_error(indices):
     """Calculate the relative error of the quantum counting estimation
@@ -103,16 +127,18 @@ def relative_error(indices):
     """
 
     # QHACK #
-    sol_num = number_of_solutions(indices)
-    rel_err = 100 * ((sol_num - len(indices)) / len(indices))
+    quantum_counting_estimation = number_of_solutions(indices)
+    true_number_of_elements = len(indices)
+
+    rel_err = ((quantum_counting_estimation / true_number_of_elements) - 1) * 100
+
     # QHACK #
 
     return rel_err
 
-
 if __name__ == '__main__':
     # DO NOT MODIFY anything in this code block
     inputs = sys.stdin.read().split(",")
-    lst = [int(i) for i in inputs]
+    lst=[int(i) for i in inputs]
     output = relative_error(lst)
     print(f"{output}")
