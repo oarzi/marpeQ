@@ -16,7 +16,46 @@ def ground_state_VQE(H):
     """
 
     # QHACK #
+    dev = qml.device("default.qubit", wires=4)
 
+    def prep_trial_state(param):
+        initial_hf_state = np.array([1, 1, 0, 0])
+        qml.BasisState(initial_hf_state, wires=range(4))
+        qml.DoubleExcitation(param, wires=[0, 1, 2, 3])
+
+    @qml.qnode(dev)
+    def avg_energy_fn(param):
+        prep_trial_state(param=param)
+        return qml.expval(H)
+
+    @qml.qnode(dev)
+    def get_ground_state(ideal_param):
+        prep_trial_state(param=ideal_param)
+        return qml.state()
+
+    opt = qml.GradientDescentOptimizer(stepsize=0.4)
+    theta = np.array(0.0, requires_grad=True)
+
+    energy = [avg_energy_fn(theta)]
+    angle = [theta]
+
+    max_iterations = 100
+    conv_tol = 1e-19
+
+    for n in range(max_iterations):
+        theta, prev_energy = opt.step_and_cost(avg_energy_fn, theta)
+
+        energy.append(avg_energy_fn(theta))
+        angle.append(theta)
+
+        conv = np.abs(energy[-1] - prev_energy)
+
+        print(f"Step = {n},  Energy = {energy[-1]:.19f} Ha")
+
+        if conv <= conv_tol:
+            break
+
+    return energy[-1], get_ground_state(angle[-1])
     # QHACK #
 
 

@@ -9,16 +9,22 @@ def binary_list(m, n):
     """Converts number m to binary encoded on a list of length n
 
     Args:
+
         - m (int): Number to convert to binary
         - n (int): Number of wires in the circuit
 
     Returns:
         - (list(int)): Binary stored as a list of length n
     """
-
     arr = []
     # QHACK #
-
+    temp_arr = list(bin(int(m)).replace("0b", ""))
+    if len(temp_arr) > n:
+        raise OverflowError("Cannot store m={} in n={} wires, at-least n_min={}".format(m, n, len(temp_arr)))
+    else:
+        temp_arr = ([0] * (n - len(temp_arr)) + temp_arr)
+        temp_arr = [int(temp_arr[idx]) for idx in range(len(temp_arr))]
+        arr = arr + temp_arr
     # QHACK #
     return arr
 
@@ -33,13 +39,12 @@ def basis_states(n):
     Returns:
         - (list(list(int))): list of basis states represented as lists of 0s and 1s.
     """
-
     arr = []
-
     # QHACK #
-
+    for int_base_element in range(2 ** n):
+        binary_base_element = binary_list(m=int_base_element, n=n)
+        arr.append(binary_base_element)
     # QHACK #
-
     return arr
 
 
@@ -54,9 +59,26 @@ def is_particle_preserving(circuit, n):
     Returns:
         - (bool): True / False according to whether the input circuit preserves the number of particles or not
     """
-
     # QHACK #
-
+    complete_computational_basis = basis_states(n=n)
+    for computational_basis_element in range(len(complete_computational_basis)):
+        basis_element = complete_computational_basis[computational_basis_element]
+        current_hamming_num = sum(basis_element)
+        circuit_output = circuit(state=basis_element)
+        total_w = 0.0
+        for w_num in range(len(circuit_output)):
+            cb = binary_list(w_num, n)
+            cw = circuit_output[w_num]
+            if cw == 0.0:
+                pass
+            else:
+                if sum(cb) != current_hamming_num:
+                    return False
+                else:
+                    total_w = total_w + cw ** 2
+        if total_w != 1.0:
+            return False
+    return True
     # QHACK #
 
 
