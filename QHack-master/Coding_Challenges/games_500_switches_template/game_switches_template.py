@@ -21,12 +21,21 @@ def switch(oracle):
 
     @qml.qnode(dev)
     def circuit():
-
         # QHACK #
-
+        # qml.PauliX(0)
+        # qml.PauliX(1)
+        # qml.PauliX(2)
+        qml.PauliX("light")
+        qml.Hadamard(0)
+        qml.Hadamard(1)
+        qml.Hadamard(2)
+        qml.Hadamard("light")
         # You are allowed to place operations before and after the oracle without any problem.
         oracle()
 
+        qml.Hadamard(0)
+        qml.Hadamard(1)
+        qml.Hadamard(2)
         # QHACK #
 
         return qml.sample(wires=range(3))
@@ -34,9 +43,10 @@ def switch(oracle):
     sample = circuit()
 
     # QHACK #
-
     # Process the received sample and return the requested list.
+    switches = np.argwhere(sample == 1)
 
+    return [s[0] for s in switches]
     # QHACK #
 
 
@@ -45,9 +55,11 @@ if __name__ == "__main__":
     inputs = sys.stdin.read().split(",")
     numbers = [int(i) for i in inputs]
 
+
     def oracle():
         for i in numbers:
             qml.CNOT(wires=[i, "light"])
+
 
     output = switch(oracle)
     print(*output, sep=",")
