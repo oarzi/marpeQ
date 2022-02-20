@@ -1,6 +1,8 @@
 #! /usr/bin/python3
 
 import sys
+from pennylane import numpy as np
+import pennylane as qml
 
 
 def check_simplification(op1, op2):
@@ -17,7 +19,10 @@ def check_simplification(op1, op2):
     """
 
     # QHACK
-
+    for o1, o2 in zip(op1, op2):
+        if o1 != "I" and o2 != "I" and o1 != o2:
+            return False
+    return True
     # QHACK
 
 
@@ -35,7 +40,16 @@ def join_operators(op1, op2):
     """
 
     # QHACK
+    op = []
 
+    for o1, o2 in zip(op1, op2):
+        if o1 == o2:
+            op.append(o1)
+        elif o1 == "I" and o2 != "I":
+            op.append(o2)
+        elif o2 == "I" and o1 != "I":
+            op.append(o1)
+    return op
     # QHACK
 
 
@@ -78,7 +92,7 @@ def compression_ratio(obs_hamiltonian, final_solution):
     """
 
     # QHACK
-
+    return 1 - len(final_solution) / len(obs_hamiltonian)
     # QHACK
 
 
