@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/QHack-master/.github/ISSUE_TEMPLATE/open_hackathon.md
+/.idea/dictionaries/Owner.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/qhack22.iml
+/.idea/vcs.xml

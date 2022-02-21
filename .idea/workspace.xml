@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1074133c-9672-4c10-ac59-bdceff166a01" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template/CHSH_game_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template/CHSH_game_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_300_Elitzur_Vaidman_template/Elitzur_Vaidman_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_300_Elitzur_Vaidman_template/Elitzur_Vaidman_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template/find_the_car_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template/find_the_car_template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_500_switches_template/game_switches_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_500_switches_template/game_switches_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_500_DeutschJozsaStrikesAgain_template/deustch_jozsa_strikes_again_template_daniel.py" beforeDir="false" afterPath="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_500_DeutschJozsaStrikesAgain_template/deustch_jozsa_strikes_again_template.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,37 +34,86 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="0e98630d-c4d6-4f9e-ab07-0e061732165a" />
+    <option name="defaultAccountId" value="2cffbda5-8902-4601-8cca-5e85953aa4fa" />
   </component>
   <component name="JupyterTrust" id="9b89a9d8-6012-45bc-8251-48715b388c83" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="256ak4VSD0TZBptVzWKDiKZQDUh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_500_UDMIS_template/1.in" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qml_300_IsingOnTheCake_template" />
       <recent name="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\algorithms_400_QuantumCounting_template" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.games400">
-    <configuration name="algo200" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
+  <component name="RunManager" selected="Python.order_matters_template">
+    <configuration name="CHSH_game_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template/CHSH_game_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\games_200_CHSH_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Elitzur_Vaidman_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_300_Elitzur_Vaidman_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_300_Elitzur_Vaidman_template/Elitzur_Vaidman_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\games_300_Elitzur_Vaidman_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="adapting_topology_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_200_AdaptingTopology_template" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -79,237 +125,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\algorithms_200_AdaptingTopology_template\2.in" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\algorithms_200_AdaptingTopology_template\1.in" />
       <method v="2" />
     </configuration>
-    <configuration name="algo400" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
+    <configuration name="adder_QFT_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_400_QuantumCounting_template" />
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_300_AdderQFT_template" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_400_QuantumCounting_template/quantum_counting_template.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_300_AdderQFT_template/adder_QFT_template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\algorithms_400_QuantumCounting_template\2.in" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\algorithms_300_AdderQFT_template\1.in" />
       <method v="2" />
     </configuration>
-    <configuration name="algo500" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
+    <configuration name="bitflip_error_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_500_DeutschJozsaStrikesAgain_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_500_DeutschJozsaStrikesAgain_template/deustch_jozsa_strikes_again_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\algorithms_500_DeutschJozsaStrikesAgain_template\2.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="games100" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_100_TardigradeMasquerade_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_100_TardigradeMasquerade_template/tardigrade_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\games_100_TardigradeMasquerade_template\1.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="games200" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template/CHSH_game_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\games_200_CHSH_template\1.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="games300" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_300_Elitzur_Vaidman_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_300_Elitzur_Vaidman_template/Elitzur_Vaidman_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\games_300_Elitzur_Vaidman_template\2.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="games400" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\games_400_FindTheCar_template\1.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="games500" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_500_switches_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_500_switches_template/game_switches_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\games_500_switches_template\1.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pnln101_100" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template/order_matters_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\pennylane101_100_OrderMatters_template\1.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pnln101_300" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_300_superdense_coding_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_300_superdense_coding_template/superdense_coding_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\pennylane101_300_superdense_coding_template\2.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pnln101_400" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_400_FiniteDifferenceGradient_template" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_400_FiniteDifferenceGradient_template/finite_difference_template.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\pennylane101_400_FiniteDifferenceGradient_template\1.in" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pnln101_500" type="PythonConfigurationType" factoryName="Python">
-      <module name="marpeQ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ofir arzi\.conda\envs\ofir\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_500_BitflipErrorCode_template" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -321,22 +169,475 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\ofir arzi\qhack2022\marpeQ\QHack-master\Coding_Challenges\pennylane101_500_BitflipErrorCode_template\2.in" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\pennylane101_500_BitflipErrorCode_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="building_QRAM_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_400_BuildingQRAM_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_400_BuildingQRAM_template/building_QRAM_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qml_400_BuildingQRAM_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deustch_jozsa_strikes_again_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_500_DeutschJozsaStrikesAgain_template" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\algorithms_500_DeutschJozsaStrikesAgain_template\deustch_jozsa_strikes_again_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\algorithms_500_DeutschJozsaStrikesAgain_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deutsch_jozsa_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_100_DeutschJozsa_template" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_100_DeutschJozsa_template/deutsch_jozsa_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\algorithms_100_DeutschJozsa_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="find_the_car_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template/find_the_car_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\games_400_FindTheCar_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="finite_difference_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_400_FiniteDifferenceGradient_template" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_400_FiniteDifferenceGradient_template/finite_difference_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\pennylane101_400_FiniteDifferenceGradient_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game_switches_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_500_switches_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_500_switches_template/game_switches_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\games_500_switches_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generating_fourier_state_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_100_GeneratingFourierState_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_100_GeneratingFourierState_template/generating_fourier_state_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qml_100_GeneratingFourierState_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ising_classifier_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_300_IsingOnTheCake_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_300_IsingOnTheCake_template/ising_classifier_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qml_300_IsingOnTheCake_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="know_your_devices_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_200_KnowYourDevices_template" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_200_KnowYourDevices_template/know_your_devices_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\pennylane101_200_KnowYourDevices_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mind_the_gap_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_500_MindTheGap_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_500_MindTheGap_template/mind_the_gap_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qchem_500_MindTheGap_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="optimizing_measurements_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_200_OptimizingMeasurements_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_200_OptimizingMeasurements_template/optimizing_measurements_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qchem_200_OptimizingMeasurements_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="order_matters_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template/order_matters_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\pennylane101_100_OrderMatters_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="particle_conservation_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_100_IsParticlePreserving_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_100_IsParticlePreserving_template/particle_conservation_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qchem_100_IsParticlePreserving_template\particle_conservation_template.py" />
+      <method v="2" />
+    </configuration>
+    <configuration name="quantum_counting_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_400_QuantumCounting_template" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_400_QuantumCounting_template/quantum_counting_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\algorithms_400_QuantumCounting_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="superdense_coding_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Owner\miniconda3\envs\qhack22\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_300_superdense_coding_template" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_300_superdense_coding_template/superdense_coding_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\pennylane101_300_superdense_coding_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tardigrade_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_100_TardigradeMasquerade_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_100_TardigradeMasquerade_template/tardigrade_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\games_100_TardigradeMasquerade_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="triple_givens_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_400_TripleGivens_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_400_TripleGivens_template/triple_givens_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qchem_400_TripleGivens_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="udmis_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_500_UDMIS_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_500_UDMIS_template/udmis_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qml_500_UDMIS_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="universality_givens_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_300_Universality_Givens_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_300_Universality_Givens_template/universality_givens_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qchem_300_Universality_Givens_template\1.in" />
+      <method v="2" />
+    </configuration>
+    <configuration name="who_likes_the_beatles_template" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="qhack22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_200_WhoLikesTheBeatles_template" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_200_WhoLikesTheBeatles_template/who_likes_the_beatles_template.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="C:\Users\Owner\PycharmProjects\qhack22\QHack-master\Coding_Challenges\qml_200_WhoLikesTheBeatles_template\1.in" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.pnln101_100" />
-      <item itemvalue="Python.pnln101_500" />
-      <item itemvalue="Python.algo500" />
-      <item itemvalue="Python.algo400" />
-      <item itemvalue="Python.games100" />
-      <item itemvalue="Python.games300" />
-      <item itemvalue="Python.games500" />
-      <item itemvalue="Python.games200" />
-      <item itemvalue="Python.games400" />
-      <item itemvalue="Python.pnln101_300" />
-      <item itemvalue="Python.pnln101_400" />
-      <item itemvalue="Python.algo200" />
+      <item itemvalue="Python.order_matters_template" />
+      <item itemvalue="Python.know_your_devices_template" />
+      <item itemvalue="Python.superdense_coding_template" />
+      <item itemvalue="Python.finite_difference_template" />
+      <item itemvalue="Python.bitflip_error_template" />
+      <item itemvalue="Python.deutsch_jozsa_template" />
+      <item itemvalue="Python.adapting_topology_template" />
+      <item itemvalue="Python.adder_QFT_template" />
+      <item itemvalue="Python.quantum_counting_template" />
+      <item itemvalue="Python.deustch_jozsa_strikes_again_template_daniel" />
+      <item itemvalue="Python.tardigrade_template" />
+      <item itemvalue="Python.CHSH_game_template" />
+      <item itemvalue="Python.Elitzur_Vaidman_template" />
+      <item itemvalue="Python.find_the_car_template" />
+      <item itemvalue="Python.game_switches_template" />
+      <item itemvalue="Python.particle_conservation_template" />
+      <item itemvalue="Python.optimizing_measurements_template" />
+      <item itemvalue="Python.universality_givens_template" />
+      <item itemvalue="Python.triple_givens_template" />
+      <item itemvalue="Python.mind_the_gap_template" />
+      <item itemvalue="Python.generating_fourier_state_template" />
+      <item itemvalue="Python.who_likes_the_beatles_template" />
+      <item itemvalue="Python.ising_classifier_template" />
+      <item itemvalue="Python.building_QRAM_template" />
+      <item itemvalue="Python.udmis_template" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -413,17 +714,15 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -431,93 +730,8 @@
     <MESSAGE value="pnln101_500_ofir_sol + algo_200_ofir_sol" />
     <MESSAGE value="algo_500_ofir_sol" />
     <MESSAGE value="algo_500_ofir_sol + algo_400_ofir_sol + algo_100_ofir_sol" />
-    <option name="LAST_COMMIT_MESSAGE" value="algo_500_ofir_sol + algo_400_ofir_sol + algo_100_ofir_sol" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Notifications" timestamp="1644909447112">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1644909447112" />
-    <state x="96" y="0" width="1089" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645190665132">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" width="1089" height="679" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1645190665132" />
-    <state x="421" y="45" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1644912659665">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="45" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.680@0.0.1280.680" timestamp="1644912659665" />
-    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1645091946687">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1645091946687" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1645092195993">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1645092195993" />
-    <state x="420" y="95" key="FileChooserDialogImpl" timestamp="1645190662023">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="420" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1645190662023" />
-    <state width="843" height="163" key="GridCell.Tab.0.bottom" timestamp="1645190690281">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="843" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645190690281" />
-    <state width="843" height="163" key="GridCell.Tab.0.center" timestamp="1645190690281">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="843" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1645190690281" />
-    <state width="843" height="163" key="GridCell.Tab.0.left" timestamp="1645190690281">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="843" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1645190690281" />
-    <state width="843" height="163" key="GridCell.Tab.0.right" timestamp="1645190690281">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="843" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1645190690281" />
-    <state width="618" height="204" key="GridCell.Tab.1.bottom" timestamp="1645025890020">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="618" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1645025890020" />
-    <state width="618" height="204" key="GridCell.Tab.1.center" timestamp="1645025890020">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="618" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1645025890020" />
-    <state width="618" height="204" key="GridCell.Tab.1.left" timestamp="1645025890020">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="618" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1645025890020" />
-    <state width="618" height="204" key="GridCell.Tab.1.right" timestamp="1645025890020">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="618" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1645025890020" />
-    <state x="121" y="51" key="MergeDialog" timestamp="1645006271538">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1645006271538" />
-    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1645006344881">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1645006344881" />
-    <state x="364" y="63" key="RollbackChangesDialog" timestamp="1645092285657">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="364" y="63" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1645092285657" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1644924067895">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1644924067895" />
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2" timestamp="1645091950522">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="62" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1645091950522" />
-    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1645191114405">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1645191114405" />
-    <state x="384" y="132" key="git4idea.merge.GitPullDialog" timestamp="1644919628823">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="384" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1644919628823" />
+    <MESSAGE value="syncing" />
+    <option name="LAST_COMMIT_MESSAGE" value="syncing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,17 +745,29 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/qhack22$know_your_devices_template.coverage" NAME="know_your_devices_template Coverage Results" MODIFIED="1644873529612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_200_KnowYourDevices_template" />
+    <SUITE FILE_PATH="coverage/qhack22$quantum_counting_template.coverage" NAME="quantum_counting_template Coverage Results" MODIFIED="1645034936016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_400_QuantumCounting_template" />
+    <SUITE FILE_PATH="coverage/qhack22$pnln101_100.coverage" NAME="pnln101_100 Coverage Results" MODIFIED="1644924492949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template" />
     <SUITE FILE_PATH="coverage/marpeQ$games300.coverage" NAME="games300 Coverage Results" MODIFIED="1645103715901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_300_Elitzur_Vaidman_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$algo500.coverage" NAME="algo500 Coverage Results" MODIFIED="1645033221710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_500_DeutschJozsaStrikesAgain_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$games400.coverage" NAME="games400 Coverage Results" MODIFIED="1645190684707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$pnln101_300.coverage" NAME="pnln101_300 Coverage Results" MODIFIED="1644927803876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_300_superdense_coding_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$pnln101_100.coverage" NAME="pnln101_100 Coverage Results" MODIFIED="1644915381049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template" />
     <SUITE FILE_PATH="coverage/marpeQ$pnln101_500.coverage" NAME="pnln101_500 Coverage Results" MODIFIED="1645012105096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_500_BitflipErrorCode_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$pnln101_400.coverage" NAME="pnln101_400 Coverage Results" MODIFIED="1644930530419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_400_FiniteDifferenceGradient_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$algo200.coverage" NAME="algo200 Coverage Results" MODIFIED="1644937674643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_200_AdaptingTopology_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$algo400.coverage" NAME="algo400 Coverage Results" MODIFIED="1645035403649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_400_QuantumCounting_template" />
     <SUITE FILE_PATH="coverage/marpeQ$games500.coverage" NAME="games500 Coverage Results" MODIFIED="1645186540727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_500_switches_template" />
-    <SUITE FILE_PATH="coverage/marpeQ$games200.coverage" NAME="games200 Coverage Results" MODIFIED="1645190570630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$pnln101_400.coverage" NAME="pnln101_400 Coverage Results" MODIFIED="1644930530419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_400_FiniteDifferenceGradient_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$algo400.coverage" NAME="algo400 Coverage Results" MODIFIED="1645035403649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_400_QuantumCounting_template" />
     <SUITE FILE_PATH="coverage/marpeQ$games100.coverage" NAME="games100 Coverage Results" MODIFIED="1645086948574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_100_TardigradeMasquerade_template" />
+    <SUITE FILE_PATH="coverage/qhack22$algo_300.coverage" NAME="algo_300 Coverage Results" MODIFIED="1645032398705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_300_AdderQFT_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$algo200.coverage" NAME="algo200 Coverage Results" MODIFIED="1644937674643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_200_AdaptingTopology_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$pnln101_100.coverage" NAME="pnln101_100 Coverage Results" MODIFIED="1644915381049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template" />
+    <SUITE FILE_PATH="coverage/qhack22$pnln101_500.coverage" NAME="pnln101_500 Coverage Results" MODIFIED="1644966710791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_500_BitflipErrorCode_template" />
+    <SUITE FILE_PATH="coverage/qhack22$algo_100.coverage" NAME="algo_100 Coverage Results" MODIFIED="1644972138070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_100_DeutschJozsa_template" />
+    <SUITE FILE_PATH="coverage/qhack22$particle_conservation_template.coverage" NAME="particle_conservation_template Coverage Results" MODIFIED="1645207858899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_100_IsParticlePreserving_template" />
+    <SUITE FILE_PATH="coverage/qhack22$order_matters_template.coverage" NAME="order_matters_template Coverage Results" MODIFIED="1645454494192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_100_OrderMatters_template" />
+    <SUITE FILE_PATH="coverage/qhack22$CHSH_game_template.coverage" NAME="CHSH_game_template Coverage Results" MODIFIED="1645199933180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$pnln101_300.coverage" NAME="pnln101_300 Coverage Results" MODIFIED="1644927803876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_300_superdense_coding_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$games200.coverage" NAME="games200 Coverage Results" MODIFIED="1645190570630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_200_CHSH_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$games400.coverage" NAME="games400 Coverage Results" MODIFIED="1645190684707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/games_400_FindTheCar_template" />
+    <SUITE FILE_PATH="coverage/qhack22$pnln101_200.coverage" NAME="pnln101_200 Coverage Results" MODIFIED="1644928874361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/pennylane101_200_KnowYourDevices_template" />
+    <SUITE FILE_PATH="coverage/qhack22$mind_the_gap_template.coverage" NAME="mind_the_gap_template Coverage Results" MODIFIED="1645377979923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/qchem_500_MindTheGap_template" />
+    <SUITE FILE_PATH="coverage/marpeQ$algo500.coverage" NAME="algo500 Coverage Results" MODIFIED="1645033221710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/algorithms_500_DeutschJozsaStrikesAgain_template" />
+    <SUITE FILE_PATH="coverage/qhack22$ising_classifier_template.coverage" NAME="ising_classifier_template Coverage Results" MODIFIED="1645378033360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QHack-master/Coding_Challenges/qml_300_IsingOnTheCake_template" />
   </component>
 </project>
