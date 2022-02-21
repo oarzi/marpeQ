@@ -28,6 +28,9 @@ def qRAM(thetas):
     def circuit():
 
         # QHACK #
+        c, s = lambda x: np.cos(x / 2), lambda x: np.sin(x / 2)
+        m = lambda x: np.array([[c(x), -s(x)],
+                                [s(x), c(x)]])
         qml.Hadamard(0)
         qml.Hadamard(1)
         qml.Hadamard(2)
@@ -35,11 +38,9 @@ def qRAM(thetas):
             for j in range(2):
                 for k in range(2):
                     control = str(k) + str(j) + str(i)
-                    # m = qml.RY(thetas[4 * i + 2 * j + k], wires=3).matrix
                     thetai = thetas[4 * k + 2 * j + i]
-                    # m = np.exp(1j * (thetai/2) * y)
-                    # print(m)
-                    qml.ControlledQubitUnitary(qml.RY(thetai, wires=3).matrix, control_wires=[0, 1, 2], wires=3,
+
+                    qml.ControlledQubitUnitary(m(thetai), control_wires=[0, 1, 2], wires=3,
                                                control_values=control)
         # Create your circuit: the first three qubits will refer to the index, the fourth to the RY rotation.
 
